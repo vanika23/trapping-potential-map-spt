@@ -26,7 +26,7 @@ The notebook is configured entirely from a single CONFIG cell. No other cell nee
 
 ## Requirements
 
-- Python 3.8+
+- Python 3.9+
 - Jupyter Notebook or JupyterLab
 - Packages:
   - `numpy` (≥1.21)
