@@ -1,0 +1,25 @@
+Spring Constant Generator -- CONFIG snapshot
+==================================================
+N_PROTEINS              = 1
+NM_PER_PIXEL            = 160.0
+ZOOM_VALUES             = [1, 2, 4, 8]
+MIN_POINTS              = 6
+VMIN                    = None
+VMAX                    = None
+USE_LOC_PRECISION_FLOOR = False
+BASE_COLORS             = ['#FFE600', '#FF7518', '#8B00FF', '#0066FF', '#00CC00']
+MASK_TO_BOUNDARY        = True
+SAVE_IMAGES             = True
+DPI                     = 600
+MAX_WORKERS             = 1
+BOUNDARY_LINEWIDTH      = 0.3
+THRESH_WEAK             = 0.3
+THRESH_STRONG           = 1.0
+PROTEIN1_NAME           = ProteinA
+PROTEIN2_NAME           = ProteinB
+
+INPUT_FOLDERS:
+  ..\demo_data\ProteinA\cell01\loc_and_trc_files
+    rgn = ..\demo_data\ProteinA\cell01\dendrite-region.rgn
+
+DUAL_INPUT_FOLDERS:
